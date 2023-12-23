@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padding</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+            margin-bottom: 20px;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow: auto;
+        }
+        .box2{
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+            margin-bottom: 20px;
+            padding-top: 40px;
+            padding-left: 10px;
+            padding-right: 30px;
+            padding-bottom: 20;
+            box-sizing: content-box;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">BOX 1
+        Lorem ipsum dolor, sit amet consectetur 
+        adipisicing elit. Consectetur magni 
+        quisquam excepturi fugit voluptate soluta quod vel molestiae voluptatibus 
+        ratione saepe debitis animi alias enim, vero ipsa commodi! Itaque, molestiae.
+    </div>
+    <div class="box2">BOX 2
+        Lorem ipsum dolor, sit amet consectetur 
+        adipisicing elit. Consectetur magni 
+        quisquam excepturi fugit voluptate soluta quod vel molestiae voluptatibus 
+        ratione saepe debitis animi alias enim, vero ipsa commodi! Itaque, molestiae.
+    </div>
+</body>
+</html>
